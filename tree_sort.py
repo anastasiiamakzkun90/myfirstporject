@@ -5,7 +5,7 @@ class Node:
     self.left,self.right = None,None
   
   
-# Root of BST 
+
 root = Node() 
   
 root = None
