@@ -5,19 +5,13 @@ class Node:
     self.left,self.right = None,None
   
   
-
-root = Node() 
-  
-root = None
-  
-# This method mainly 
-# calls insertRec() 
 def insert(key): 
   global root 
   root = insertRec(root, key) 
+
+root = Node()   
+root = None
   
-# A recursive function to  
-# insert a new key in BST 
 def insertRec(root, key): 
   
   # If the tree is empty, 
@@ -36,9 +30,7 @@ def insertRec(root, key):
   
   # return the root 
   return root 
-  
-# A function to do  
-# inorder traversal of BST 
+
 def inorderRec(root): 
   if (root != None): 
     inorderRec(root.left) 
