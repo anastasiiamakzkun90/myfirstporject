@@ -1,9 +1,8 @@
 class Node: 
   
-  def __init__(self,item = 0): 
-    self.key = item 
-    self.left,self.right = None,None
-  
+    def __init__(self,item = 0): 
+        self.key = item 
+        self.left,self.right = None,None
   
 def insert(key): 
   global root 
