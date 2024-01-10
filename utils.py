@@ -4,4 +4,3 @@ def loop22():
     i += 1
     if i == 3:
       continue
-    print(i)
