@@ -3,5 +3,4 @@ def loop22():
   while i < 6:
     i += 1
     if i == 3:
-      print(i)
       continue
