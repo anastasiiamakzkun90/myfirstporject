@@ -1,3 +1,3 @@
 import os
 
-a = ["cherry", "berry", "merry"]
+a = ["cherry", "berry", "merry", "apple", "strawbery"]
